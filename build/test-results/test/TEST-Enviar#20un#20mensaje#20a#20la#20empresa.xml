@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Enviar un mensaje a la empresa" tests="2" skipped="2" failures="0" errors="0" timestamp="2022-03-26T05:42:05" hostname="JUANMAN-PC" time="0.374">
+  <properties/>
+  <testcase name="Envio con formulario completo" classname="Enviar un mensaje a la empresa" time="0.355">
+    <skipped/>
+  </testcase>
+  <testcase name="Envio con email incorrecto" classname="Enviar un mensaje a la empresa" time="0.019">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

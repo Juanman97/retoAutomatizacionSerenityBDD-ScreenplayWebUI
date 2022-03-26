@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.sofka.runner.contactus.ContactUsTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="JUANMAN-PC" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[33mUndefined scenarios:?[0m
+?[33mfile:///D:/SofkaU/Introduccion%20a%20la%20automatizacion/Intellij/retoAutomatizacionSerenityBDDScreenplayWebUI/src/test/resources/features/contactus/contactUs.feature:14?[0m# Envio con formulario completo
+?[33mfile:///D:/SofkaU/Introduccion%20a%20la%20automatizacion/Intellij/retoAutomatizacionSerenityBDDScreenplayWebUI/src/test/resources/features/contactus/contactUs.feature:18?[0m# Envio con email incorrecto
+
+2 Scenarios (?[33m2 undefined?[0m)
+8 Steps (?[33m8 undefined?[0m)
+0m0,594s
+
+
+You can implement missing steps with the snippets below:
+
+@Given("El usuario se encuentra en la pagina principal de la tienda")
+public void elUsuarioSeEncuentraEnLaPaginaPrincipalDeLaTienda() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("el usuario navega a la pagina de contact us")
+public void elUsuarioNavegaALaPaginaDeContactUs() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("el usuario llena el formulario completo y envia")
+public void elUsuarioLlenaElFormularioCompletoYEnvia() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("el sistema mostrara un mensaje de envio satisfactorio")
+public void elSistemaMostraraUnMensajeDeEnvioSatisfactorio() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("el usuario llena el formulario usando el email {string}")
+public void elUsuarioLlenaElFormularioUsandoElEmail(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("el sistema mostrara un mensaje de error")
+public void elSistemaMostraraUnMensajeDeError() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>
