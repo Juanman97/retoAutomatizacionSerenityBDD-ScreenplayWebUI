@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Enviar un mensaje a la empresa","Envio con formulario completo","SUCCESS","2022-03-26T21:11:32.412-05:00[America/Bogota]","0.0","13.9"
+"Enviar un mensaje a la empresa","Envio con email incorrecto","SUCCESS","2022-03-26T21:11:47.274-05:00[America/Bogota]","0.0","9.72"
+"Crear una cuenta de usuario","Crear una cuenta satisfactoriamente","SUCCESS","2022-03-26T21:12:45.256-05:00[America/Bogota]","0.0","20.04"
+"Crear una cuenta de usuario","Crear una cuenta con una contrasenia incorrecta","SUCCESS","2022-03-26T21:13:06.203-05:00[America/Bogota]","0.0","18.39"
+"Iniciar sesion en una cuenta","Inicio de sesion exitoso","SUCCESS","2022-03-26T21:11:59.767-05:00[America/Bogota]","0.0","33.93"
+"Iniciar sesion en una cuenta","Inicio de sesion fallido","SUCCESS","2022-03-26T21:12:34.652-05:00[America/Bogota]","0.0","9.51"

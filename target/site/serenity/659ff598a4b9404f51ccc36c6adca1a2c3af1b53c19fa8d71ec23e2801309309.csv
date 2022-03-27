@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Iniciar sesion en una cuenta","Inicio de sesion exitoso","SUCCESS","2022-03-26T21:11:59.767-05:00[America/Bogota]","0.0","33.93"
+"Iniciar sesion en una cuenta","Inicio de sesion fallido","SUCCESS","2022-03-26T21:12:34.652-05:00[America/Bogota]","0.0","9.51"

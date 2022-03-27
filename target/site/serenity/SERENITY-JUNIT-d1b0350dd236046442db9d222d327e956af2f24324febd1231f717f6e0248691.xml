@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Crear una cuenta de usuario" skipped="0" tests="2" time="38.42" timestamp="2022-03-26 09:12:45"><testcase name="Crear una cuenta satisfactoriamente"/><testcase name="Crear una cuenta con una contrasenia incorrecta"/></testsuite>
