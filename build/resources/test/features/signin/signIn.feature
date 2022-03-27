@@ -9,12 +9,12 @@ Feature: Iniciar sesion en una cuenta
   Background:
     Given El usuario se encuentra en la vista principal de la tienda
     And el usuario navega al modulo de Sign In
+    And El usuario se registra en la pagina correctamente
+    And el usuario cierra su sesion
 
 
   Scenario: Inicio de sesion exitoso
-    When El usuario se registra en la pagina correctamente
-    And el usuario cierra su sesion
-    And el usuario ingresa sus credenciales de inicio correctas
+    When el usuario ingresa sus credenciales de inicio correctas
     Then el sistema redirigira a la vista de cuenta de usuario
 
   Scenario: Inicio de sesion fallido

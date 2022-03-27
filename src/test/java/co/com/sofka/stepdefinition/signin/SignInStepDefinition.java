@@ -23,7 +23,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class SignInStepDefinition extends Setup {
     private static final String ACTOR_NAME = "Cliente";
-    private static String RANDOM_EMAIL = randomEmail();;
+    private static String RANDOM_EMAIL;
     private static String WRONG_PASSWORD = "123451";
     private FullFormModel registerModel;
     private SignInCredentialsModel signInModel;
@@ -43,8 +43,9 @@ public class SignInStepDefinition extends Setup {
         );
     }
 
-    @When("El usuario se registra en la pagina correctamente")
+    @Given("El usuario se registra en la pagina correctamente")
     public void elUsuarioSeRegistraEnLaPaginaCorrectamente() {
+        RANDOM_EMAIL = randomEmail();
         registerModel = setModelData();
         theActorInTheSpotlight().attemptsTo(
                 enterEmail().UsingEmail(RANDOM_EMAIL),
@@ -52,7 +53,7 @@ public class SignInStepDefinition extends Setup {
         );
     }
 
-    @When("el usuario cierra su sesion")
+    @Given("el usuario cierra su sesion")
     public void elUsuarioCierraSuSesion() {
         theActorInTheSpotlight().attemptsTo(
             logOut()
